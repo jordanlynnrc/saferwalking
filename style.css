@@ -100,3 +100,57 @@ button:hover{
     background-color: rgba(255, 255, 255, 0.7);
     transition: all 300ms;
 }
+
+/* Breakpoints */
+
+@media only screen and (max-width: 800px) {
+.split{
+    display: inline;
+}
+
+.block, .block2{
+    width: 80%;
+    padding: 20px 10px 20px 10px;
+}
+
+#infoContainer{
+    height: auto;
+}
+
+#infoLogo{
+    width: 50%;
+}
+
+.imageContainer{
+    text-align: center;
+}
+
+.infoHeading{
+    text-align: center;
+}
+
+} 
+
+@media only screen and (max-width: 600px) {
+.split{
+    display: inline;
+}
+
+.block, .block2{
+    width: 80%;
+    padding: 20px 10px 20px 10px;
+}
+
+.block2{
+    text-align: center;
+}
+
+#infoContainer{
+    height: auto;
+}
+
+#infoLogo{
+    width: 50%;
+}
+
+} 
